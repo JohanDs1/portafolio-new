@@ -2,24 +2,24 @@
     "basics": {
         "Nombre": "Sebastian Johan Bermeo",
         "Titulo": "Tecnologo en Desarrollo de Software",
-        "Imagen": "../src/assets/img/Me.jpg",
+        "Imagen": "./assets/img/Me.jpg",
         "Ubicacion": "Ecuador, Ambato EC.",
         "email": "johan.hark19@gmail.com",
         "socialMedia": [
             {
                 "Nombre": "Linkedin",
                 "Url": "https://www.linkedin.com/in/johan-bermeo-ds/",
-                "Icono": "../src/assets/img/react-icons/AiOutlineLinkedin.svg"
+                "Icono": "./assets/img/react-icons/AiOutlineLinkedin.svg"
             },
             {
                 "Nombre": "GitHub",
                 "Url": "https://github.com/JohanDs1",
-                "Icono": "../src/assets/img/react-icons/AiOutlineGithub.svg"
+                "Icono": "./assets/img/react-icons/AiOutlineGitHub.svg"
             },
             {
                 "Nombre": "Instagram",
                 "Url": "https://www.instagram.com/johan.dark19/",
-                "Icono": "../src/assets/img/react-icons/AiOutlineInstagram.svg"
+                "Icono": "./assets/img/react-icons/AiOutlineInstagram.svg"
             }
         ]
     },
@@ -28,74 +28,74 @@
             "Nombre_Institucion": "Instituto Superior Tecnológico Bolívar",
             "Titulo": "Título de Tercer Nivel en Desarrollo de Software",
             "Periodo": "2022 - 2025",
-            "Ruta_Logo": "../src/assets/img/Logo_ISTB.png"
+            "Ruta_Logo": "./assets/img/Logo_ISTB.png"
         },
         {
             "Nombre_Institucion": "Alura Latam",
             "Titulo": "Formación Profesional Online",
             "Periodo": "2023 - 2024",
-            "Ruta_Logo": "../src/assets/img/alura.png"
+            "Ruta_Logo": "./assets/img/alura.png"
         }
     ],
     "habilidades": [
         {
             "Id": 1,
             "name": "HTML",
-            "Svg": "src/assets/img/logos/html5.svg",
+            "Svg": "./assets/img/logos/html5.svg",
             "color": "#EF652A"
         },
         {
             "Id": 2,
             "name": "CSS",
-            "Svg": "src/assets/img/logos/css_old.svg",
+            "Svg": "./assets/img/logos/css_old.svg",
             "color": "#285CEC"
         },
         {
             "Id": 3,
             "name": "React",
-            "Svg": "src/assets/img/logos/react_dark.svg",
+            "Svg": "./assets/img/logos/react_dark.svg",
             "color": "#58C4DC"
         },
         {
             "Id": 4,
             "name": "MySQL",
-            "Svg": "src/assets/img/logos/mysql.svg",
+            "Svg": "./assets/img/logos/mysql.svg",
             "color": "#15AED7"
         },
         {
             "Id": 5,
             "name": "Express.js",
-            "Svg": "src/assets/img/logos/expressjs.svg",
+            "Svg": "./assets/img/logos/expressjs.svg",
             "color": "#3C484C"
         },
         {
             "Id": 6,
             "name": "JavaScript",
-            "Svg": "src/assets/img/logos/javascript.svg",
+            "Svg": "./assets/img/logos/javascript.svg",
             "color": "#FFDE00"
         },
         {
             "Id": 7,
             "name": "Php",
-            "Svg": "src/assets/img/logos/Php_dark.svg",
+            "Svg": "./assets/img/logos/Php_dark.svg",
             "color": "#001AFF"
         },
         {
             "Id": 8,
             "name": "Tailwind",
-            "Svg": "src/assets/img/logos/tailwindcss.svg",
+            "Svg": "./assets/img/logos/tailwindcss.svg",
             "color": "#3ABEF6"
         },
         {
             "Id": 9,
             "name": "Material UI",
-            "Svg": "src/assets/img/logos/materialui.svg",
+            "Svg": "./assets/img/logos/materialui.svg",
             "color": "#3696f7"
         },
         {
             "Id": 10,
             "name": "C++",
-            "Svg": "src/assets/img/logos/c-plusplus.svg",
+            "Svg": "./assets/img/logos/c-plusplus.svg",
             "color": "#649AD2"
         }
     ],
@@ -103,7 +103,7 @@
         {
             "Nombre": "Encriptador de texto",
             "Descripcion": "Convierte textos en mensajes cifrados y seguros.",
-            "Portada": "src/assets/img/projects/encrip.webp",
+            "Portada": "./assets/img/projects/encrip.webp",
             "Stack": [
                 1,
                 6,
@@ -115,7 +115,7 @@
         {
             "Nombre": "My Org",
             "Descripcion": "Creación de equipos y asignación de integrantes.",
-            "Portada": "src/assets/img/projects/org.webp",
+            "Portada": "./assets/img/projects/org.webp",
             "Stack": [
                 1,
                 2,
@@ -128,7 +128,7 @@
         {
             "Nombre": "Sistema de Vinculación - Instituto Superior Tecnológico Bolívar",
             "Descripcion": "Gestión de vinculación: docentes, proyectos e informes automatizados.",
-            "Portada": "src/assets/img/projects/sisvin.webp",
+            "Portada": "./assets/img/projects/SisVin.webp",
             "Stack": [
                 1,
                 2,
