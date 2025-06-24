@@ -1,0 +1,159 @@
+{
+    "basics": {
+        "Nombre": "Sebastian Johan Bermeo",
+        "Titulo": "Tecnologo en Desarrollo de Software",
+        "Imagen": "../src/assets/img/Me.jpg",
+        "Ubicacion": "Ecuador, Ambato EC.",
+        "email": "johan.hark19@gmail.com",
+        "socialMedia": [
+            {
+                "Nombre": "Linkedin",
+                "Url": "https://www.linkedin.com/in/johan-bermeo-ds/",
+                "Icono": "../src/assets/img/react-icons/AiOutlineLinkedin.svg"
+            },
+            {
+                "Nombre": "GitHub",
+                "Url": "https://github.com/JohanDs1",
+                "Icono": "../src/assets/img/react-icons/AiOutlineGithub.svg"
+            },
+            {
+                "Nombre": "Instagram",
+                "Url": "https://www.instagram.com/johan.dark19/",
+                "Icono": "../src/assets/img/react-icons/AiOutlineInstagram.svg"
+            }
+        ]
+    },
+    "educacion": [
+        {
+            "Nombre_Institucion": "Instituto Superior Tecnológico Bolívar",
+            "Titulo": "Título de Tercer Nivel en Desarrollo de Software",
+            "Periodo": "2022 - 2025",
+            "Ruta_Logo": "../src/assets/img/Logo_ISTB.png"
+        },
+        {
+            "Nombre_Institucion": "Alura Latam",
+            "Titulo": "Formación Profesional Online",
+            "Periodo": "2023 - 2024",
+            "Ruta_Logo": "../src/assets/img/alura.png"
+        }
+    ],
+    "habilidades": [
+        {
+            "Id": 1,
+            "name": "HTML",
+            "Svg": "src/assets/img/logos/html5.svg",
+            "color": "#EF652A"
+        },
+        {
+            "Id": 2,
+            "name": "CSS",
+            "Svg": "src/assets/img/logos/css_old.svg",
+            "color": "#285CEC"
+        },
+        {
+            "Id": 3,
+            "name": "React",
+            "Svg": "src/assets/img/logos/react_dark.svg",
+            "color": "#58C4DC"
+        },
+        {
+            "Id": 4,
+            "name": "MySQL",
+            "Svg": "src/assets/img/logos/mysql.svg",
+            "color": "#15AED7"
+        },
+        {
+            "Id": 5,
+            "name": "Express.js",
+            "Svg": "src/assets/img/logos/expressjs.svg",
+            "color": "#3C484C"
+        },
+        {
+            "Id": 6,
+            "name": "JavaScript",
+            "Svg": "src/assets/img/logos/javascript.svg",
+            "color": "#FFDE00"
+        },
+        {
+            "Id": 7,
+            "name": "Php",
+            "Svg": "src/assets/img/logos/Php_dark.svg",
+            "color": "#001AFF"
+        },
+        {
+            "Id": 8,
+            "name": "Tailwind",
+            "Svg": "src/assets/img/logos/tailwindcss.svg",
+            "color": "#3ABEF6"
+        },
+        {
+            "Id": 9,
+            "name": "Material UI",
+            "Svg": "src/assets/img/logos/materialui.svg",
+            "color": "#3696f7"
+        },
+        {
+            "Id": 10,
+            "name": "C++",
+            "Svg": "src/assets/img/logos/c-plusplus.svg",
+            "color": "#649AD2"
+        }
+    ],
+    "proyectos": [
+        {
+            "Nombre": "Encriptador de texto",
+            "Descripcion": "Convierte textos en mensajes cifrados y seguros.",
+            "Portada": "src/assets/img/projects/encrip.webp",
+            "Stack": [
+                1,
+                6,
+                8
+            ],
+            "GitHub": "https://github.com/JohanDs1/encriptadorChallenge",
+            "url_preview": "https://encriptador-challenge-wjyv.vercel.app/"
+        },
+        {
+            "Nombre": "My Org",
+            "Descripcion": "Creación de equipos y asignación de integrantes.",
+            "Portada": "src/assets/img/projects/org.webp",
+            "Stack": [
+                1,
+                2,
+                3,
+                6
+            ],
+            "GitHub": "https://github.com/JohanDs1/MyOrg#",
+            "url_preview": "https://my-org-gold.vercel.app/"
+        },
+        {
+            "Nombre": "Sistema de Vinculación - Instituto Superior Tecnológico Bolívar",
+            "Descripcion": "Gestión de vinculación: docentes, proyectos e informes automatizados.",
+            "Portada": "src/assets/img/projects/sisvin.webp",
+            "Stack": [
+                1,
+                2,
+                6,
+                3,
+                4,
+                5,
+                9
+            ],
+            "GitHub": "",
+            "url_preview": ""
+        }
+    ],
+    "about": [
+        {
+            "parrafo": "Soy desarrollador web con enfoque en frontend, aunque también tengo experiencia en backend. Me siento más conectado con el desarrollo de interfaces, donde puedo combinar lógica, diseño y experiencia de usuario."
+        },
+        {
+            "parrafo": "Me gusta crear proyectos que simplifiquen tareas repetitivas y ayuden a las personas en su día a día. Aunque empecé en la programación con muchas dudas, descubrí que esta profesión se alinea con mi objetivo de aportar soluciones útiles a través de la tecnología."
+        },
+        {
+            "parrafo": "Actualmente sigo aprendiendo constantemente, explorando nuevas herramientas, participando en comunidades y fortaleciendo habilidades como la comunicación y el liderazgo técnico."
+        }
+    ],
+    "contact": {
+        "descripcion": "¿Te interesa trabajar conmigo? Escríbeme sin compromiso."
+    }
+}
