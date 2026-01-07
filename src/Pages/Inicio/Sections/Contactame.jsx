@@ -1,9 +1,9 @@
 import { useState } from "react";
-import Input from "../componentes/Input";
-import Section from "../componentes/Section";
-import { useCv } from "../context/cvContext";
-import { enviarCorreo, mostrarMensajeError } from "../utils";
-import Dots from "../componentes/Dots";
+import Input from "../../../componentes/Input";
+import Section from "../../../componentes/Section";
+import { useCv } from "../../../context/cvContext";
+import { enviarCorreo, mostrarMensajeError } from "../../../utils";
+import Dots from "../../../componentes/Dots";
 
 
 

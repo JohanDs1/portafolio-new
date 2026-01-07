@@ -1,7 +1,7 @@
 import { useState } from "react";
-import Section from "../componentes/Section";
-import { useCv } from "../context/cvContext";
-import useIsMobile from "../CustomHooks/isMobile";
+import Section from "../../../componentes/Section";
+import { useCv } from "../../../context/cvContext";
+import useIsMobile from "../../../CustomHooks/isMobile";
 
 const Habilidades = () => {
     const [hoveredId, setHoveredId] = useState(null);

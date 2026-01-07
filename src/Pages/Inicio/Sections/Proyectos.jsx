@@ -1,5 +1,5 @@
-import Section from "../componentes/Section";
-import { useCv } from "../context/cvContext";
+import Section from "../../../componentes/Section";
+import { useCv } from "../../../context/cvContext";
 import { IoIosLink } from "react-icons/io";
 
 const Proyectos = () => {

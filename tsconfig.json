@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+
+    "jsx": "react-jsx",
+
+    "allowJs": true,
+    "isolatedModules": true,
+
+    "strict": false, //Cuando este todo el proyecto en TS cambiar a true
+    "allowImportingTsExtensions": true,
+
+    "noEmit": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"]
+}

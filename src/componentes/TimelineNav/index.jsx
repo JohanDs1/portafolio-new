@@ -45,7 +45,7 @@ const TimelineNav = ({ items }) => {
               href={item.ruta}
               className={`group relative flex flex-col items-center ${!isLast ? 'mb-16' : ''} z-10`}
             >
-              <div className={`text-2xl transition-colors ${isActive ? 'text-blue-500' : 'text-slate-800 dark:text-white'} bg-white dark:bg-slate-900`}>
+              <div className={`text-2xl transition-colors ${isActive ? 'text-blue-500' : 'text-slate-800 shadow-cyan-500/50 dark:text-white'} bg-white dark:bg-slate-900`}>
                 {item.icono}
               </div>
               <span className="absolute left-8 top-1/2 -translate-y-1/2 text-sm text-slate-700 dark:text-slate-300 opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
