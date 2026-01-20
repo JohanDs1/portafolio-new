@@ -97,6 +97,12 @@
             "name": "C++",
             "Svg": "./assets/img/logos/c-plusplus.svg",
             "color": "#649AD2"
+        },
+        {
+            "Id": 11,
+            "name": "Typescript",
+            "Svg": "./assets/img/logos/typescript.svg",
+            "color": "#649AD2"
         }
     ],
     "proyectos": [
