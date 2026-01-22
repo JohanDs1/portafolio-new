@@ -31,7 +31,7 @@ const Hero = () => {
                 </div>
 
                 <figure>
-                    <img src={cv.basics?.Imagen} alt="" className="aspect-square w-32 rounded-2xl " />
+                    <img src={cv.basics?.Imagen} alt="" className="object-contain w-40 rounded-2xl " />
                 </figure>
             </div>
 
