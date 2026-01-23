@@ -25,7 +25,7 @@ const Proyectos = () => {
                                         cv.habilidades?.filter(habilidad => Stack.includes(habilidad.Id))
                                         .map((habilidad,i)=>(
                                          <img src={habilidad.Svg} alt={`Logo ${habilidad.name}`} className={`max-w-6 
-                                         ${habilidad.name === 'Php' && "invert dark:invert-0"} ${habilidad.name === "Express.js" && "dark:invert"} `}
+                                         ${habilidad.name === 'Php' && "invert dark:invert-0"} ${habilidad.invert === true && "dark:invert"} `}
                                          key={i}/>
                                         )) 
                                     }
