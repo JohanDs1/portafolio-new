@@ -171,7 +171,7 @@ const Contactame = () => {
               : <button
                 type="submit"
                 onClick={handleSubmit}
-                className="py-2 px-4 border-2 border-slate-100 dark:border-gray-500 mt-4 hover:cursor-pointer hover:brightness-75 text-gray-400 w-1/4 max-md:w-full"
+                className="py-2 px-4 border-2 border-slate-400 dark:border-gray-200 mt-4 hover:cursor-pointer hover:brightness-75 text-slate-700 dark:text-slate-100 w-1/4 max-md:w-full"
               >
                 Enviar Mensaje
               </button>

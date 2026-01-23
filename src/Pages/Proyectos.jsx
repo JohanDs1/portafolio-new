@@ -11,7 +11,7 @@ const Proyectos = () => {
         <Section title="Proyectos">
             <div className="container flex flex-col gap-8 max-md:gap-4">
                 {
-                    cv.proyectos?.map(({ Nombre, Descripcion, Portada, Stack, GitHub, url_preview }, i) => {
+                    cv.proyectos?.map(({ Nombre, Descripcion, Portada, Stack, GitHub, url_preview, nota }, i) => {
 
                         return <div className="card_proyecto flex gap-4 dark:text-slate-100 border-2 border-gray-100 rounded-lg dark:border-slate-800 p-2 max-md:flex-col" key={i}>
                             <img src={Portada} alt='Portada' className="w-96 h-auto rounded-l-lg max-md:w-full" />
@@ -48,6 +48,9 @@ const Proyectos = () => {
                                                 <p>Preview</p>
                                             </a>
                                         </button>
+                                    }
+                                    {
+                                        nota && <p className="text-sm italic dark:text-gray-400">{nota}</p>
                                     }
 
                                 </div>
